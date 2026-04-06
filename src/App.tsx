@@ -1062,8 +1062,8 @@ export default function App() {
             />
             {/* Ikon Pengganti jika gambar logo gagal dimuat */}
             <BookOpen className="w-12 h-12 text-white mx-auto mb-3 hidden" />
-            <h1 className="text-2xl font-bold text-white">Bank Soal Sejarah</h1>
-            <p className="text-green-100 mt-1">Ujian & Latihan Interaktif</p>
+            <h1 className="text-2xl font-bold text-white"> Soal Sejarah</h1>
+            <p className="text-green-100 mt-1">TO TKA</p>
           </div>
 
           <div className="p-6">
@@ -1131,18 +1131,13 @@ export default function App() {
                   }
                 >
                   <optgroup label="Kelas X">
-                    <option>X MIPA 1</option>
-                    <option>X MIPA 2</option>
-                    <option>X MIPA 3</option>
-                    <option>X IPS 1</option>
-                    <option>X IPS 2</option>
+                    <option>X 1</option>
+                    <option>X 2</option>
                   </optgroup>
                   <optgroup label="Kelas XI">
-                    <option>XI MIPA 1</option>
-                    <option>XI MIPA 2</option>
-                    <option>XI MIPA 3</option>
-                    <option>XI IPS 1</option>
-                    <option>XI IPS 2</option>
+                    <option>XI MIPA</option>
+                    <option>XI SOS</option>
+                  
                   </optgroup>
                 </select>
               </div>
